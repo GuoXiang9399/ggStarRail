@@ -475,8 +475,11 @@ ggsci_db$"material"$"blue-grey" <- c(
 )
 
 ggsci_db$"huangquan"$"default" <- c(
-  "zise" = "#8459AB",
-  "heizi" = "#84689E"
+  "color1" = "#6E60C7",
+  "color2" = "#AE1A28",
+  "color3" = "#3B3455",
+  "color4" = "#696869",
+  "color5" = "#BCB1F5"
 )
 
 save(ggsci_db, file = "R/sysdata.rda")

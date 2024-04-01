@@ -1,6 +1,6 @@
-#' UCSC Genome Browser Color Palette
+#' Huangquan Color Palette
 #'
-#' Color palette from UCSC Genome Browser chromosome colors.
+#' Color palette from Huangquan.
 #'
 #' @param palette Palette type.
 #' Currently there is one available option: \code{"default"}
@@ -13,8 +13,6 @@
 #' @importFrom grDevices col2rgb rgb
 #' @importFrom scales manual_pal
 #'
-#' @author Nan Xiao <\email{me@@nanx.me}> |
-#' <\href{https://nanx.me}{https://nanx.me}>
 #'
 #' @examples
 #' library("scales")
@@ -36,7 +34,6 @@ pal_huangquan <- function(palette = c("default"), alpha = 1) {
   manual_pal(unname(alpha_cols))
 }
 
-#' UCSC Genome Browser Color Scales
 #'
 #' See \code{\link{pal_huangquan}} for details.
 #'
@@ -46,9 +43,6 @@ pal_huangquan <- function(palette = c("default"), alpha = 1) {
 #' @export scale_color_huangquan
 #'
 #' @importFrom ggplot2 discrete_scale
-#'
-#' @author Nan Xiao <\email{me@@nanx.me}> |
-#' <\href{https://nanx.me}{https://nanx.me}>
 #'
 #' @rdname scale_huangquan
 #'
