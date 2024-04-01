@@ -13,7 +13,6 @@
 #' @importFrom grDevices col2rgb rgb
 #' @importFrom scales manual_pal
 #'
-#'
 #' @examples
 #' library("scales")
 #' show_col(pal_huangquan("default")(26))
