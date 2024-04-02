@@ -44,4 +44,10 @@ remotes::install_github("GuoXiang9399/ggStarRail")
 
 <img src="figures/ruanmei.png" width="100%" style="display: block; margin: auto;" />
 
+``` r 
+  plot_grid(
+    p1+scale_color_ruanmei(),
+    p2+scale_fill_ruanmei())
+
+```
 
