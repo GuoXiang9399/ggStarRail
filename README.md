@@ -2,14 +2,14 @@
 
 a collection of StarRail-styled color schemes
 
-```{r echo=FALSE}
+```r 
 knitr::include_graphics("picture/huangquan.png")
 
 ```
 
 
 
-```{r echo=FALSE, message=FALSE, warning=FALSE}
+```r echo=FALSE, message=FALSE, warning=FALSE
 library(ggplot2)
 library(ggStarRail)
 library(scales)
