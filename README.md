@@ -1,6 +1,15 @@
-## ggStarRail
+# ggStarRail
 
-a collection of StarRail-styled color schemes
+a collection of StarRail-styled color schemes.
+
+## Installation
+
+You can install ggStarRail on GitHub:
+
+``` r
+remotes::install_github("GuoXiang9399/ggStarRail")
+```
+## Gallery
 
 ``` r 
 #loading package
@@ -20,11 +29,9 @@ a collection of StarRail-styled color schemes
       theme_bw()
 ```
 
-
 ### huangquan
 
 <img src="figures/huangquan.png" width="100%" style="display: block; margin: auto;" />
-
 
 ``` r 
   plot_grid(
