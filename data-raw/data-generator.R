@@ -33,6 +33,13 @@ ggStarRail_db$"ruanmei"$"default" <- c(
   "color5" = "#BBBAB5"
 )
 
+ggStarRail_db$"Clara"$"default" <- c(
+  "color1" = "#5F8E9C",
+  "color2" = "#354359",
+  "color3" = "#9EB4C2",
+  "color4" = "#4D7C82",
+  "color5" = "#BBBAB5"
+)
 
 
 # Color palette inspired by University of Chicago Color Palette

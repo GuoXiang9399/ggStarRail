@@ -29,25 +29,67 @@ remotes::install_github("GuoXiang9399/ggStarRail")
       theme_bw()
 ```
 
-### huangquan
+### 黄泉 Acheron 
 
-<img src="figures/huangquan.png" width="100%" style="display: block; margin: auto;" />
-
-``` r 
-  plot_grid(
-    p1+scale_color_huangquan(),
-    p2+scale_fill_huangquan())
-
-```
-
-### ruanmei
-
-<img src="figures/ruanmei.png" width="100%" style="display: block; margin: auto;" />
+<img src="figures/Acheron.png" width="100%" style="display: block; margin: auto;" />
 
 ``` r 
   plot_grid(
-    p1+scale_color_ruanmei(),
-    p2+scale_fill_ruanmei())
+    p1+scale_color_Acheron(),
+    p2+scale_fill_Acheron())
 
 ```
+
+### 阮梅 Ruan Mei 
+
+<img src="figures/RuanMei.png" width="100%" style="display: block; margin: auto;" />
+
+``` r 
+  plot_grid(
+    p1+scale_color_RuanMei(),
+    p2+scale_fill_RuanMei())
+
+```
+
+### 托帕 Topaz
+
+<img src="figures/Topaz.png" width="100%" style="display: block; margin: auto;" />
+
+``` r 
+  plot_grid(
+    p1+scale_color_Topaz(),
+    p2+scale_fill_Topaz())
+
+```
+
+### 克拉拉 Clara
+
+<img src="figures/Clara.png" width="100%" style="display: block; margin: auto;" />
+
+``` r 
+  plot_grid(
+    p1+scale_color_Clara(),
+    p2+scale_fill_Clara())
+
+```
+### 丹恒·饮月 Dan Heng·Imbibitor
+
+``` r 
+  plot_grid(
+    p1+scale_color_Imbibitor(),
+    p2+scale_fill_Imbibitor())
+
+```
+
+### 杰帕德 Gepard
+
+``` r 
+  plot_grid(
+    p1+scale_color_Gepard(),
+    p2+scale_fill_Gepard())
+
+```
+
+
+
 
