@@ -5,7 +5,7 @@
 ggStarRail_db <- vector("list")
 
 # Discrete Color Palettes
-ggStarRail_db$"huangquan"$"default" <- c(
+ggStarRail_db$"ImbibitorLunae"$"default" <- c(
   "color1" = "#6E60C7",
   "color2" = "#AE1A28",
   "color3" = "#3B3455",
@@ -15,7 +15,36 @@ ggStarRail_db$"huangquan"$"default" <- c(
   "color7" = "#633E51"
 )
 
-ggStarRail_db$"tuopa"$"default" < c(
+ggStarRail_db$"Jingliu"$"default" <- c(
+  "color1" = "#6E60C7",
+  "color2" = "#AE1A28",
+  "color3" = "#3B3455",
+  "color4" = "#E1B5AA",
+  "color5" = "#696869",
+  "color6" = "#BCB1F5",
+  "color7" = "#633E51"
+)
+
+
+ggStarRail_db$"Acheron"$"default" <- c(
+  "color1" = "#6E60C7",
+  "color2" = "#AE1A28",
+  "color3" = "#3B3455",
+  "color4" = "#E1B5AA",
+  "color5" = "#696869",
+  "color6" = "#BCB1F5",
+  "color7" = "#633E51"
+)
+
+ggStarRail_db$"RuanMei"$"default" <- c(
+  "color1" = "#5F8E9C",
+  "color2" = "#354359",
+  "color3" = "#9EB4C2",
+  "color4" = "#4D7C82",
+  "color5" = "#BBBAB5"
+)
+
+ggStarRail_db$"Topaz"$"default" < c(
   "color1" = "#861A30",
   "color2" = "#382F4B",
   "color3" = "#F0DA94",
@@ -23,14 +52,6 @@ ggStarRail_db$"tuopa"$"default" < c(
   "color5" = "#4158B6",
   "color6" = "#723A8B",
   "color7" = "#879E42"
-)
-
-ggStarRail_db$"ruanmei"$"default" <- c(
-  "color1" = "#5F8E9C",
-  "color2" = "#354359",
-  "color3" = "#9EB4C2",
-  "color4" = "#4D7C82",
-  "color5" = "#BBBAB5"
 )
 
 ggStarRail_db$"Clara"$"default" <- c(

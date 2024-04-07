@@ -29,6 +29,24 @@ remotes::install_github("GuoXiang9399/ggStarRail")
       theme_bw()
 ```
 
+### 丹恒·饮月 Dan Heng·Imbibitor Lunae
+
+``` r 
+  plot_grid(
+    p1+scale_color_ImbibitorLunae(),
+    p2+scale_fill_ImbibitorLunae())
+
+```
+
+### 镜流 Jingliu
+
+``` r 
+  plot_grid(
+    p1+scale_color_Jingliu(),
+    p2+scale_fill_Jingliu())
+
+```
+
 ### 黄泉 Acheron 
 
 <img src="figures/Acheron.png" width="100%" style="display: block; margin: auto;" />
@@ -72,23 +90,8 @@ remotes::install_github("GuoXiang9399/ggStarRail")
     p2+scale_fill_Clara())
 
 ```
-### 丹恒·饮月 Dan Heng·Imbibitor
 
-``` r 
-  plot_grid(
-    p1+scale_color_Imbibitor(),
-    p2+scale_fill_Imbibitor())
 
-```
-
-### 杰帕德 Gepard
-
-``` r 
-  plot_grid(
-    p1+scale_color_Gepard(),
-    p2+scale_fill_Gepard())
-
-```
 
 
 
