@@ -31,6 +31,9 @@ remotes::install_github("GuoXiang9399/ggStarRail")
 
 ### 丹恒·饮月 Dan Heng·Imbibitor Lunae
 
+<img src="figures/ImbibitorLunae.png" width="100%" style="display: block; margin: auto;" />
+
+
 ``` r 
   plot_grid(
     p1+scale_color_ImbibitorLunae(),
@@ -39,6 +42,9 @@ remotes::install_github("GuoXiang9399/ggStarRail")
 ```
 
 ### 镜流 Jingliu
+
+<img src="figures/Jingliu.png" width="100%" style="display: block; margin: auto;" />
+
 
 ``` r 
   plot_grid(
