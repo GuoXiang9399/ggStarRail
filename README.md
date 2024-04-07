@@ -64,6 +64,8 @@ remotes::install_github("GuoXiang9399/ggStarRail")
 
 ```
 
+<img src="figures/Acheron_Plot.png" width="100%" style="display: block; margin: auto;" />
+
 ### 阮梅 Ruan Mei 
 
 <img src="figures/RuanMei.png" width="100%" style="display: block; margin: auto;" />
@@ -74,6 +76,9 @@ remotes::install_github("GuoXiang9399/ggStarRail")
     p2+scale_fill_RuanMei())
 
 ```
+
+<img src="figures/RuanMei_Plot.png" width="100%" style="display: block; margin: auto;" />
+
 
 ### 托帕 Topaz
 
