@@ -29,6 +29,43 @@ remotes::install_github("GuoXiang9399/ggStarRail")
       theme_bw()
 ```
 
+### 黄泉 Acheron 
+
+<img src="figures/Acheron.png" width="100%" style="display: block; margin: auto;" />
+
+``` r 
+  plot_grid(
+    p1+scale_color_Acheron(),
+    p2+scale_fill_Acheron())
+
+```
+
+<img src="figures/Acheron_Plot.png" width="100%" style="display: block; margin: auto;" />
+
+### 银枝 Argenti
+
+<img src="figures/Argenti.png" width="100%" style="display: block; margin: auto;" />
+
+### 克拉拉 Clara
+
+<img src="figures/Clara.png" width="100%" style="display: block; margin: auto;" />
+
+``` r 
+  plot_grid(
+    p1+scale_color_Clara(),
+    p2+scale_fill_Clara())
+
+```
+
+### 真理医生 Dr. Ration
+
+<img src="figures/DrRatio.png" width="100%" style="display: block; margin: auto;" />
+
+
+### 霍霍 Huohuo
+
+<img src="figures/Huohuo.png" width="100%" style="display: block; margin: auto;" />
+
 ### 丹恒·饮月 Dan Heng·Imbibitor Lunae
 
 <img src="figures/ImbibitorLunae.png" width="100%" style="display: block; margin: auto;" />
@@ -52,19 +89,6 @@ remotes::install_github("GuoXiang9399/ggStarRail")
     p2+scale_fill_Jingliu())
 
 ```
-
-### 黄泉 Acheron 
-
-<img src="figures/Acheron.png" width="100%" style="display: block; margin: auto;" />
-
-``` r 
-  plot_grid(
-    p1+scale_color_Acheron(),
-    p2+scale_fill_Acheron())
-
-```
-
-<img src="figures/Acheron_Plot.png" width="100%" style="display: block; margin: auto;" />
 
 ### 阮梅 Ruan Mei 
 
@@ -91,18 +115,13 @@ remotes::install_github("GuoXiang9399/ggStarRail")
 
 ```
 
-### 克拉拉 Clara
+### 瓦尔特
 
-<img src="figures/Clara.png" width="100%" style="display: block; margin: auto;" />
+<img src="figures/Welt.png" width="100%" style="display: block; margin: auto;" />
 
-``` r 
-  plot_grid(
-    p1+scale_color_Clara(),
-    p2+scale_fill_Clara())
+### 彦卿 Yanqing
 
-```
-
-
+<img src="figures/Yanqing.png" width="100%" style="display: block; margin: auto;" />
 
 
 
