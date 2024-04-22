@@ -46,6 +46,13 @@ remotes::install_github("GuoXiang9399/ggStarRail")
 
 <img src="figures/Argenti.png" width="100%" style="display: block; margin: auto;" />
 
+``` r 
+  plot_grid(
+    p1+scale_color_Argenti(),
+    p2+scale_fill_Argenti())
+
+```
+
 ### 克拉拉 Clara
 
 <img src="figures/Clara.png" width="100%" style="display: block; margin: auto;" />
@@ -61,15 +68,27 @@ remotes::install_github("GuoXiang9399/ggStarRail")
 
 <img src="figures/DrRatio.png" width="100%" style="display: block; margin: auto;" />
 
+``` r 
+  plot_grid(
+    p1+scale_color_DrRatio(),
+    p2+scale_fill_DrRatio())
+
+```
 
 ### 霍霍 Huohuo
 
 <img src="figures/Huohuo.png" width="100%" style="display: block; margin: auto;" />
 
+``` r 
+  plot_grid(
+    p1+scale_color_Huohuo(),
+    p2+scale_fill_Huohuo())
+
+```
+
 ### 丹恒·饮月 Dan Heng·Imbibitor Lunae
 
 <img src="figures/ImbibitorLunae.png" width="100%" style="display: block; margin: auto;" />
-
 
 ``` r 
   plot_grid(
@@ -119,10 +138,23 @@ remotes::install_github("GuoXiang9399/ggStarRail")
 
 <img src="figures/Welt.png" width="100%" style="display: block; margin: auto;" />
 
+``` r 
+  plot_grid(
+    p1+scale_color_Welt(),
+    p2+scale_fill_Welt())
+
+```
+
 ### 彦卿 Yanqing
 
 <img src="figures/Yanqing.png" width="100%" style="display: block; margin: auto;" />
 
+``` r 
+  plot_grid(
+    p1+scale_color_Yanqing(),
+    p2+scale_fill_Yanqing())
+
+```
 
 
 
